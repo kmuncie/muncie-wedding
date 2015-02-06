@@ -1,0 +1,14 @@
+{
+  "name": "muncie",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kmuncie/muncie.git"
+  },
+  "dependencies": {
+    "bootstrap-sass-official": ">=3.3.1",
+    "jquery": ">=2.1.1",
+    "modernizr": "~2.8.3"
+  },
+  "private": true
+}

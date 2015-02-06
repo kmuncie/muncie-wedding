@@ -1,0 +1,10 @@
+{% extends "layouts/base.html" %}
+{% block page %}
+    <div class="container">
+        <a href="{{ root }}">
+            <h1>{{ description }}</h1>
+        </a>
+        <h3>by {{ owner }}</h3>
+        {% block content %}{% endblock %}
+    </div>
+{% endblock %}
