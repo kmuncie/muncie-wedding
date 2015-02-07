@@ -1,3 +1,3 @@
-## zf5_project
+# Muncie Wedding
 
-(place your readme here)
+A simple website developed for my wedding using the [zf5 Yeoman generator](https://github.com/juliancwirko/generator-zf5)
