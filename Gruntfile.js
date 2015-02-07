@@ -25,7 +25,8 @@ module.exports = function (grunt) {
             options: {
                 includePaths: [
                     '<%= config.lib %>'
-                ]
+                ],
+                require: 'susy'
             },
             dev: {
                 options: {
