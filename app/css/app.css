@@ -5372,7 +5372,7 @@ h1 {
   font-size: 2.4rem; }
 
 h2 {
-  font-size: 2.25rem; }
+  font-size: 2.55rem; }
 
 h3 {
   font-size: 1.75rem; }
@@ -5532,7 +5532,7 @@ blockquote, blockquote p {
     font-size: 3.4rem; }
 
   h2 {
-    font-size: 2.5rem; }
+    font-size: 2.8rem; }
 
   h3 {
     font-size: 2rem; }
@@ -6402,7 +6402,10 @@ th.hide-for-touch {
 /* all app scss styles here */
 h2 {
   color: #FDD262;
-  text-shadow: 1px 1px 0 #4d6462; }
+  text-shadow: 1px 1px 4px #374745; }
+
+h5 {
+  color: #7b7b7b; }
 
 header {
   text-align: center;
@@ -6428,12 +6431,39 @@ header {
         padding: 0;
         font-size: 10.2rem; } }
 
+.when p {
+  font-size: 1.2rem; }
+
 .where {
   margin-top: 2.5rem; }
   @media only screen and (min-width:25.063em) {
     .where {
       text-align: right;
       margin-top: 0; } }
+
+.gifts {
+  margin-top: 2.5rem; }
+  .gifts p {
+    font-size: 0.8rem; }
+  .gifts .address p {
+    color: #626262; }
+
+.love {
+  margin-top: 2.5rem; }
+  .love h2 {
+    text-align: center; }
+    @media only screen and (min-width:25.063em) {
+      .love h2 {
+        font-size: 4.5rem; } }
+  .love p {
+    text-indent: 3rem; }
+    .love p:first-of-type {
+      text-indent: 0;
+      margin-top: 1.5rem; }
+  .love .big {
+    font-size: 2rem;
+    line-height: 1rem;
+    font-weight: 400; }
 
 .full-width {
   width: 100%; }

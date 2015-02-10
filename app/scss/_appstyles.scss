@@ -4,7 +4,11 @@
 
 h2 {
 	color: $wes-yellow;
-	text-shadow: 1px 1px 0 darken($wes-blue, 50%);
+	text-shadow: 1px 1px 4px darken($wes-blue, 60%);
+}
+
+h5 {
+	color: lighten($header-font-color, 35%);
 }
 
 header {
@@ -34,11 +38,51 @@ header {
 	}
 }
 
+.when { 
+	p { 
+		font-size: 1.2rem;
+	}
+}
+
 .where {
 	margin-top: rem-calc(50);
 	@media #{$medium-up} {
 		text-align: right;
 		margin-top: 0;
+	}
+}
+
+.gifts {
+	margin-top: rem-calc(50);
+	p {
+		font-size: .8rem;
+	}
+	.address {
+		p {
+			color: lighten($header-font-color, 25%);
+		}
+	}
+}
+
+.love {
+	margin-top: rem-calc(50);
+	h2 {
+		text-align: center;
+		@media #{$medium-up} {
+			font-size: rem-calc(90);
+		}
+	}
+	p {
+		text-indent: 3rem;
+		&:first-of-type {
+			text-indent: 0;
+			margin-top: rem-calc(30);
+		}
+	}
+	.big {
+		font-size: 2rem;
+		line-height: 1rem;
+		font-weight: 400;
 	}
 }
 
