@@ -6,13 +6,21 @@ var app = (function(document, $) {
 			docElem.setAttribute('data-useragent', navigator.userAgent);
 		},
 		_init = function() {
-			$(document).foundation();
-            // needed to use joyride
-            // doc: http://foundation.zurb.com/docs/components/joyride.html
-            $(document).on('click', '#start-jr', function () {
-                $(document).foundation('joyride', 'start');
-            });
-			_userAgentInit();
+
+		$(window).load(function () {
+    		$('.Collage').removeWhitespace().collagePlus();
+		});
+
+		var resizeTimer = null;
+			$(window).bind('resize', function() {
+			// hide all the images until we resize them
+			// set the element you are scaling i.e. the first child nodes of ```.Collage``` to opacity 0
+			$('.Collage .Image_Wrapper').css("opacity", 0);
+			// set a timer to re-apply the plugin
+			if (resizeTimer) clearTimeout(resizeTimer);
+				resizeTimer = setTimeout(collage, 200);
+		});
+
 		};
 	return {
 		init: _init

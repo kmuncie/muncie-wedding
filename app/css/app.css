@@ -6449,7 +6449,7 @@ header {
     color: #626262; }
 
 .love {
-  margin-top: 2.5rem; }
+  margin: 2.5rem 0; }
   .love h2 {
     text-align: center; }
     @media only screen and (min-width:25.063em) {
@@ -6464,6 +6464,9 @@ header {
     font-size: 2rem;
     line-height: 1rem;
     font-weight: 400; }
+  .love .sig {
+    text-indent: 0;
+    text-align: right; }
 
 .full-width {
   width: 100%; }
@@ -6471,6 +6474,12 @@ header {
     .full-width {
       max-height: 80vh;
       overflow: hidden; } }
+
+.Collage {
+  padding: 10px; }
+  .Collage img {
+    vertical-align: bottom;
+    opacity: 0; }
 
 .footer {
   text-align: center; }
