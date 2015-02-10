@@ -8,7 +8,9 @@ var app = (function(document, $) {
 		_init = function() {
 
 		$(window).load(function () {
-    		$('.Collage').removeWhitespace().collagePlus();
+    		$('.Collage').removeWhitespace().collagePlus(
+    			'allowPartialLastRow' : true
+    		);
 		});
 
 		var resizeTimer = null;
