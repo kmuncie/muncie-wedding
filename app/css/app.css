@@ -6475,6 +6475,9 @@ header {
       max-height: 80vh;
       overflow: hidden; } }
 
+.countdown {
+  font-size: 0.85rem; }
+
 .Collage {
   padding: 10px; }
   .Collage img {

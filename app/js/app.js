@@ -8,9 +8,9 @@ var app = (function(document, $) {
 		_init = function() {
 
 		$(window).load(function () {
-    		$('.Collage').removeWhitespace().collagePlus(
-    			'allowPartialLastRow' : true
-    		);
+    		$('.Collage').removeWhitespace().collagePlus({
+    			'allowPartialLastRow':true
+    		});
 		});
 
 		var resizeTimer = null;
@@ -22,6 +22,12 @@ var app = (function(document, $) {
 			if (resizeTimer) clearTimeout(resizeTimer);
 				resizeTimer = setTimeout(collage, 200);
 		});
+
+		$(function() {
+		    $('.countdown').countdown({
+		        date: "March 28, 2015 15:00:00"
+		    });
+		});			
 
 		};
 	return {
