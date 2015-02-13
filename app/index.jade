@@ -51,35 +51,23 @@ html(class="no-js", lang="en")
                             For now however, we must be modest and live within our means. The Watchtower has some wonderful articles on how to
                             #[a(href="http://wol.jw.org/en/wol/d/r1/lp-e/2006767") increase the joy and dignity of a wedding], and we have studied these numerous times
                             in our family worship. For that reason we have attempted to keep our wedding very small and modest. 
-                            We have no wedding party, we are trying to invite only around 50-75, and the reception will be a small simple affair.
+                            We have no bridal party, we are trying to invite only around 50-75, and the reception will be a small simple affair.
                         p.
                             Instead of inviting hundreds of you to the expense of travel, lodging, and our inevitable desire to provide an unforgettable event, we 
                             would much rather have a small dignified wedding which will bring honor to Jehovah and the marriage arrangement... and then have many smaller gatherings
                             in the coming months where we can enjoy your company and love in a meaningful way.
                         p.
-                            We are saying many prayers that you will understand our reasons these decisions and know how much we truly do love each of you and
+                            We are saying many prayers that you will understand our reasons for these decisions and know how much we truly do love each of you and
                             look forward to enjoying the rest of our lives with you doing many wonderful things together. Thank you for your support and for caring
-                            for us both so much!
+                            about us both so much!
                         p.sig 
                             — Ace & Kevin
+
+        - var pics1 = ["IMG_0077","camping","IMG_0225","IMG_0485","IMG_0613","campingcar","IMG_1398","IMG_1412","IMG_1459","IMG_2156","IMG_1587","IMG_1708","IMG_3498","IMG_3499"];
+        - var pics2 = ["IMG_3500","IMG_2202","IMG_1242","IMG_2713","IMG_2795","IMG_2092","IMG_3208","IMG_3316","IMG_3349","IMG_1928","IMG_3413"];
         .Collage
-            img(src="../images/IMG_0077.JPG", alt="")
-            img(src="../images/IMG_0225.JPG", alt="")
-            img(src="../images/IMG_0485.JPG", alt="")
-            img(src="../images/IMG_0613.JPG", alt="")
-            img(src="../images/IMG_1398.JPG", alt="")
-            img(src="../images/IMG_1412.JPG", alt="")
-            img(src="../images/IMG_1459.JPG", alt="")
-            img(src="../images/IMG_1587.JPG", alt="")
-            img(src="../images/IMG_1708.JPG", alt="")
-            img(src="../images/IMG_3498.JPG", alt="")
-            img(src="../images/IMG_3499.JPG", alt="")
-            img(src="../images/IMG_3500.JPG", alt="")
-            img(src="../images/IMG_2202.JPG", alt="")
-            img(src="../images/IMG_2713.JPG", alt="")
-            img(src="../images/IMG_2795.JPG", alt="")
-            img(src="../images/IMG_3208.JPG", alt="")
-            img(src="../images/IMG_3316.JPG", alt="")
-            img(src="../images/IMG_3349.JPG", alt="")
-            img(src="../images/IMG_3413.JPG", alt="")                                                                                                         
+            each pic in pics1
+                img(src="../images/#{pic}.JPG")
+            each pic in pics2
+                img(src="../images/#{pic}.JPG")                                                                                                                         
         include footer
