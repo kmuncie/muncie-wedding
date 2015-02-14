@@ -110,6 +110,18 @@ header {
 	}
 }
 
+.lodging {
+	margin: rem-calc(50) 0 0 0;
+	h4 {
+		color: lighten($header-font-color, 25%);
+		text-align: center;
+	}
+	p {
+		font-size: .8rem;
+		text-align: center;
+	}
+}
+
 
 .footer {
 	text-align: center;

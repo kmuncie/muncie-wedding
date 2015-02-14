@@ -6484,5 +6484,14 @@ header {
     vertical-align: bottom;
     opacity: 0; }
 
+.lodging {
+  margin: 2.5rem 0 0 0; }
+  .lodging h4 {
+    color: #626262;
+    text-align: center; }
+  .lodging p {
+    font-size: 0.8rem;
+    text-align: center; }
+
 .footer {
   text-align: center; }
