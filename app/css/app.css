@@ -1832,15 +1832,15 @@ select {
   margin-left: 0;
   list-style: none;
   border-style: solid;
-  border-width: 1px;
-  background-color: #f4f4f4;
-  border-color: gainsboro;
+  border-width: 0;
+  background-color: #D3DDDC;
+  border-color: #bbcac9;
   border-radius: 3px; }
   .breadcrumbs > * {
     margin: 0;
     float: left;
-    font-size: 0.55rem;
-    line-height: 0.55rem;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
     text-transform: uppercase;
     color: #008CBA; }
     .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
@@ -6442,11 +6442,14 @@ header {
       margin-top: 0; } }
 
 .gifts {
-  margin-top: 2.5rem; }
+  margin: 2.5rem 0; }
+  .gifts h3, .gifts h5 {
+    text-align: center; }
   .gifts p {
     font-size: 0.8rem; }
   .gifts .address p {
-    color: #626262; }
+    color: #626262;
+    text-align: center; }
 
 .love {
   margin: 2.5rem 0; }
@@ -6487,11 +6490,9 @@ header {
 .lodging {
   margin: 2.5rem 0 0 0; }
   .lodging h4 {
-    color: #626262;
-    text-align: center; }
+    color: #626262; }
   .lodging p {
-    font-size: 0.8rem;
-    text-align: center; }
+    font-size: 0.8rem; }
 
 .footer {
   text-align: center; }
