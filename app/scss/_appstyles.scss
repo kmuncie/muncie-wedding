@@ -61,9 +61,13 @@ header {
 		font-size: .8rem;
 	}
 	.address {
+		margin-top: 20px;
 		p {
 			color: lighten($header-font-color, 25%);
 			text-align: center;
+		}
+		.button {
+			margin-top: 5px;
 		}
 	}
 }

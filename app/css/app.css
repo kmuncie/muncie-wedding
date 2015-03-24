@@ -6447,9 +6447,13 @@ header {
     text-align: center; }
   .gifts p {
     font-size: 0.8rem; }
-  .gifts .address p {
-    color: #626262;
-    text-align: center; }
+  .gifts .address {
+    margin-top: 20px; }
+    .gifts .address p {
+      color: #626262;
+      text-align: center; }
+    .gifts .address .button {
+      margin-top: 5px; }
 
 .love {
   margin: 2.5rem 0; }
