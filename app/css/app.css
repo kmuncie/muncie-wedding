@@ -6441,6 +6441,14 @@ header {
       text-align: right;
       margin-top: 0; } }
 
+.stream {
+  text-align: center; }
+  .stream h2, .stream p {
+    margin: 15px 0; }
+
+.photos h2 {
+  text-align: center; }
+
 .gifts {
   margin: 2.5rem 0; }
   .gifts h3, .gifts h5 {

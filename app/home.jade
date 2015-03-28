@@ -1,5 +1,14 @@
 .full-width
-            img(src="../images/engaged.jpg", alt="Ace & Kevin Engaged")
+            //- img(src="../images/engaged.jpg", alt="Ace & Kevin Engaged")
+        .row
+            .small-12.large-10.small-centered.columns.stream
+                h2 Watch the livestream
+                p.
+                    We are using the service livestream.com so you can watch the wedding live. It offers the best quality
+                    for free, the downside is you must sign up for an account to watch. If you dont want to sign up we
+                    are going to try and have the entire wedding video available in a few weeks. 
+                p We will try and start livestreaming at 4:45pm PST!!
+            | <iframe src="http://new.livestream.com/accounts/12711022/events/3924793/player?width=960&height=540&autoPlay=true&mute=false" width="100%" height="340" frameborder="0" scrolling="no"> </iframe>
         .row
             .small-10.medium-12.large-8.small-centered.columns
                 header
@@ -75,11 +84,14 @@
                     .small-12.medium-6.columns
                         a(class='button expand', href='https://cash.me/$wedding') Send money with no fee!
 
-
-        - var pics1 = ["IMG_0077","camping","IMG_0225","IMG_0485","IMG_0613","campingcar","IMG_1398","IMG_1412","IMG_1459","IMG_2156","IMG_1587","IMG_1708","IMG_3498","IMG_3499"];
-        - var pics2 = ["IMG_3500","IMG_2202","IMG_1242","IMG_2713","IMG_2795","IMG_2092","IMG_3208","IMG_3316","IMG_3349","IMG_1928","IMG_3413"];
-        .Collage
-            each pic in pics1
-                img(src="../images/#{pic}.JPG")
-            each pic in pics2
-                img(src="../images/#{pic}.JPG")
+        .row
+            .small-12.columns.photos
+                h2 Our Photos
+                a(class='button expand', href='/photos.html') See photos of Ace & Kevin!
+        //- - var pics1 = ["IMG_0077","camping","IMG_0225","IMG_0485","IMG_0613","campingcar","IMG_1398","IMG_1412","IMG_1459","IMG_2156","IMG_1587","IMG_1708","IMG_3498","IMG_3499"];
+        //- - var pics2 = ["IMG_3500","IMG_2202","IMG_1242","IMG_2713","IMG_2795","IMG_2092","IMG_3208","IMG_3316","IMG_3349","IMG_1928","IMG_3413"];
+        //- .Collage
+        //-     each pic in pics1
+        //-         img(src="../images/#{pic}.JPG")
+        //-     each pic in pics2
+        //-         img(src="../images/#{pic}.JPG")

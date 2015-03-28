@@ -1,0 +1,14 @@
+doctype html
+html(class="no-js", lang="en")
+   include header
+   body
+      a(class='button expand', href='/') Home
+      - var pics1 = ["IMG_0077","camping","IMG_0225","IMG_0485","IMG_0613","campingcar","IMG_1398","IMG_1412","IMG_1459","IMG_2156","IMG_1587","IMG_1708","IMG_3498","IMG_3499"];
+      - var pics2 = ["IMG_3500","IMG_2202","IMG_1242","IMG_2713","IMG_2795","IMG_2092","IMG_3208","IMG_3316","IMG_3349","IMG_1928","IMG_3413"];
+      .Collage
+         each pic in pics1
+             img(src="../images/#{pic}.JPG")
+         each pic in pics2
+             img(src="../images/#{pic}.JPG")
+      a(class='button expand', href='/') Home
+      include footer

@@ -52,6 +52,19 @@ header {
 	}
 }
 
+.stream {
+	text-align: center;
+	h2, p {
+		margin: 15px 0;
+	}
+}
+
+.photos {
+	h2 {
+		text-align: center;
+	}
+}
+
 .gifts {
 	margin: rem-calc(50) 0;
 	h3, h5 {
